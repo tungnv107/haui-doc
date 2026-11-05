@@ -78,7 +78,7 @@ E2E dùng Chrome đã cài trên máy (`channel: chrome`) và server tại cổn
 | `tests`                | Unit và E2E                                                                |
 | `docs`                 | Quyết định, mapping, gaps và nghiệm thu demo                               |
 
-PDF đã có sẵn, không cần Python để chạy web. Nếu chỉnh fixtures và cần tạo lại PDF: chạy `node scripts/export-demo-data.mjs`, sau đó `python scripts/generate-demo-pdfs.py` với Python có `reportlab`; mặc định dùng Arial của Windows trong `C:/Windows/Fonts` (có thể cấu hình `DEMO_FONT_DIR`). Script chỉ nhúng font vào PDF, không sao chép bộ font hệ thống vào repo.
+PDF đã có sẵn, không cần Python để chạy web. PDF worker được đồng bộ với phiên bản `pdfjs-dist` đã cài trước mỗi lần chạy dev hoặc build. Nếu chỉnh fixtures và cần tạo lại PDF: chạy `node scripts/export-demo-data.mjs`, sau đó `python scripts/generate-demo-pdfs.py` với Python có `reportlab`; mặc định dùng Arial của Windows trong `C:/Windows/Fonts` (có thể cấu hình `DEMO_FONT_DIR`). Script chỉ nhúng font vào PDF, không sao chép bộ font hệ thống vào repo.
 
 ## Ranh giới trước triển khai thật
 

@@ -35,7 +35,7 @@ export default function PdfViewer({
         const pdfjs = await import("pdfjs-dist");
         if (disposed) return;
         pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
-        const task = pdfjs.getDocument(url);
+        const task = pdfjs.getDocument({ url });
         cleanup = () => {
           void task.destroy();
         };
