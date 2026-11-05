@@ -1,0 +1,13 @@
+.git
+.next
+node_modules
+artifacts
+playwright-report
+test-results
+*.log
+*.tsbuildinfo
+*.zip
+.env
+.env.*
+*.key
+*.pem

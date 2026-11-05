@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "route": "/",
+      "violations": []
+    },
+    {
+      "route": "/van-ban",
+      "violations": []
+    },
+    {
+      "route": "/van-ban/demo-001",
+      "violations": []
+    },
+    {
+      "route": "/danh-muc/linh-vuc",
+      "violations": []
+    },
+    {
+      "route": "/huong-dan",
+      "violations": []
+    },
+    {
+      "route": "/demo/quan-tri",
+      "violations": []
+    },
+    {
+      "route": "admin-dashboard",
+      "violations": []
+    },
+    {
+      "route": "admin-review",
+      "violations": []
+    }
+  ]
+}
